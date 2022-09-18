@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Eligibility__c</fullName>
+    <description>Secondary Eligibility pick list</description>
+    <externalId>false</externalId>
+    <label>Secondary Eligibility</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Impending cancellation of services/utilies</fullName>
+                <default>true</default>
+                <label>Impending cancellation of services/utilies</label>
+            </value>
+            <value>
+                <fullName>Eligible for free Rural Financial Counse</fullName>
+                <default>false</default>
+                <label>Eligible for free Rural Financial Counse</label>
+            </value>
+            <value>
+                <fullName>Government income support payments</fullName>
+                <default>false</default>
+                <label>Government income support payments</label>
+            </value>
+            <value>
+                <fullName>Incurring penalty interest</fullName>
+                <default>false</default>
+                <label>Incurring penalty interest</label>
+            </value>
+            <value>
+                <fullName>Overdue bills for household</fullName>
+                <default>false</default>
+                <label>Overdue bills for household</label>
+            </value>
+            <value>
+                <fullName>Suffering from Immediate effects of nature Disaster</fullName>
+                <default>false</default>
+                <label>Suffering from Immediate effects of nature Disaster</label>
+            </value>
+            <value>
+                <fullName>Unable to obtain credit or increased finance</fullName>
+                <default>false</default>
+                <label>Unable to obtain credit or increased finance</label>
+            </value>
+            <value>
+                <fullName>Unable to provide food clothing shelter</fullName>
+                <default>false</default>
+                <label>Unable to provide food clothing shelter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

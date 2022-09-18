@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Eligibility__c</fullName>
+    <description>Primary Eligibility Pick list</description>
+    <externalId>false</externalId>
+    <label>Primary Eligibility</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australian Resident</fullName>
+                <default>true</default>
+                <label>Australian Resident</label>
+            </value>
+            <value>
+                <fullName>TR97/11*</fullName>
+                <default>false</default>
+                <label>TR97/11*</label>
+            </value>
+            <value>
+                <fullName>FHA</fullName>
+                <default>false</default>
+                <label>FHA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

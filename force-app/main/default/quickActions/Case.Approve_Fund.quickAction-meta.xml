@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create Disbursement fund after approval Process for case</description>
+    <fieldOverrides>
+        <field>RCMS__Case__c</field>
+        <formula>Case.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>RCMS__Disbursement_Fund__c</field>
+        <formula>Case.Relief_Fund__r.Disbursement_Fund__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Relief_Fund__c</field>
+        <formula>Case.Relief_Fund__c</formula>
+    </fieldOverrides>
+    <label>Approve Fund</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>RCMS__Disbursement_Fund__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>RCMS__Case__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Relief_Fund__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>RCMS__Amount__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>RCMS__Category__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <targetObject>RCMS__Disbursement__c</targetObject>
+    <targetParentField>RCMS__Case__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

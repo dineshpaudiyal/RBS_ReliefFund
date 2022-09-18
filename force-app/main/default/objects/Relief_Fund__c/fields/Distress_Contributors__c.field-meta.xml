@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distress_Contributors__c</fullName>
+    <description>Distress Contributors pick list</description>
+    <externalId>false</externalId>
+    <label>Distress Contributors</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Drought</fullName>
+                <default>true</default>
+                <label>Drought</label>
+            </value>
+            <value>
+                <fullName>Bushfire</fullName>
+                <default>false</default>
+                <label>Bushfire</label>
+            </value>
+            <value>
+                <fullName>Disease/ Outbreak</fullName>
+                <default>false</default>
+                <label>Disease/ Outbreak</label>
+            </value>
+            <value>
+                <fullName>Storm Damage</fullName>
+                <default>false</default>
+                <label>Storm Damage</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Medical Issues</fullName>
+                <default>false</default>
+                <label>Medical Issues</label>
+            </value>
+            <value>
+                <fullName>Personal Crisis</fullName>
+                <default>false</default>
+                <label>Personal Crisis</label>
+            </value>
+            <value>
+                <fullName>Relationship Breakdown</fullName>
+                <default>false</default>
+                <label>Relationship Breakdown</label>
+            </value>
+            <value>
+                <fullName>Debt / Financial Strain</fullName>
+                <default>false</default>
+                <label>Debt / Financial Strain</label>
+            </value>
+            <value>
+                <fullName>Restructure of Business</fullName>
+                <default>false</default>
+                <label>Restructure of Business</label>
+            </value>
+            <value>
+                <fullName>COVID</fullName>
+                <default>false</default>
+                <label>COVID</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

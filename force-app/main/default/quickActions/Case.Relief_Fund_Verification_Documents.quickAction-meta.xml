@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Upload Relief Case Documents and Verification</description>
+    <flowDefinition>Relief_Fund_Verification_Upload</flowDefinition>
+    <label>Upload Verification Documents</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>
